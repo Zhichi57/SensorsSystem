@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kp.sensors_system"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->F:\FlutterProjects\sensors_system\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->F:\FlutterProjects\sensors_system\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23         calls FlutterMain.startInitialization(this); in its onCreate method.
+24         In most cases you can leave this as-is, but you if you want to provide
+25         additional functionality it is fine to subclass or reimplement
+26         FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:8:5-35:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:9:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\0a271e99b6771ad4a84318244d532fb7\core-1.0.0\AndroidManifest.xml:22:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:11:9-43
+33        android:label="Система сбора данных" >
+33-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:10:9-45
+34        <activity
+34-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:13:9-24:20
+35            android:name="com.kp.sensors_system.MainActivity"
+35-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:14:13-41
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+36-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:17:13-163
+37            android:hardwareAccelerated="true"
+37-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:18:13-47
+38            android:launchMode="singleTop"
+38-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:15:13-43
+39            android:theme="@style/LaunchTheme"
+39-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:16:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:19:13-55
+41            <intent-filter>
+41-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:20:13-23:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:21:17-68
+42-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:21:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:22:17-76
+44-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:22:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:27:9-30:15
+52            android:name="flutterEmbedding"
+52-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:28:13-44
+53            android:value="2" />
+53-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:29:13-30
+54        <meta-data
+54-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:32:9-33:66
+55            android:name="com.google.android.geo.API_KEY"
+55-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:32:20-65
+56            android:value="AIzaSyC5wUVKPSI1jlhmEjXXvDAfqP6X6Q35744" />
+56-->F:\FlutterProjects\sensors_system\android\app\src\main\AndroidManifest.xml:33:9-64
+57
+58        <!-- Needs to be explicitly declared on P+ -->
+59        <uses-library
+59-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+60            android:name="org.apache.http.legacy"
+60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+61            android:required="false" />
+61-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\75fb05de8aa501436ff36e2705d185fa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\75fb05de8aa501436ff36e2705d185fa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ilya\.gradle\caches\transforms-2\files-2.1\75fb05de8aa501436ff36e2705d185fa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>
